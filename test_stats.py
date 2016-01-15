@@ -6,11 +6,14 @@ def test_mean():
 #test_mean()
 
 def test_empty():
-	assert mean([]) == 0.0 and mean(()) == 0.0
+	assert mean([]) == 0.0
 #test_empty()
 
 def test_float():
 	assert_equal(mean([1,2]),1.5)
 #test_float()
+
+def test_str_list_mean():
+	assert_equal(mean(['1','2','3']),2.0)
 
 #assert_almost_equals(mean([.5,.5,1]),.666666666666)
