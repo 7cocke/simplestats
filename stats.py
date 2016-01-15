@@ -8,4 +8,3 @@ def mean(vals):
     	return 0.0
     return total/length
 
-
