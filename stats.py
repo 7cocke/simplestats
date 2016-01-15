@@ -8,16 +8,4 @@ def mean(vals):
     	return 0.0
     return total/length
 
-def test_mean():
-	assert mean([2,4]) == 3.0
-test_mean()
-
-def test_empty():
-	assert mean([]) == 0.0 and mean(()) == 0.0
-test_empty()
-
-#print(mean([2,4]))
-#print(mean('2,3'))
-
-
 
